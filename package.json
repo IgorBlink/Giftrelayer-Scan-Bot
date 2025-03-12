@@ -1,0 +1,14 @@
+{
+  "name": "ton-gift-monitor-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for monitoring TON gifts",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.3.1"
+  }
+}
